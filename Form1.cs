@@ -35,7 +35,7 @@ namespace ftp
             Stream reqStream = dalecalor.GetRequestStream();
             reqStream.Write(buffer, 0, buffer.Length);
             reqStream.Close();
-            MessageBox.Show("Uploaded Successfully");
+            MessageBox.Show("Ya quedo 100%");
         }
 
     }
